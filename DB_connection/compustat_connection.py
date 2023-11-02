@@ -21,7 +21,7 @@ class Computstat:
 def main():
     curr = Computstat('nathanielyee')
     print(curr)
-    del curr
+
 
 
 if __name__ == '__main__':
