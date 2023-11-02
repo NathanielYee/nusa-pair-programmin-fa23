@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
 from typing import Dict, Generator, List, Optional, Union
 
-from DB_connection.base_connection import *
+from base_connection import *
 import psycopg as pg
 from sqlalchemy import create_engine
 import csv

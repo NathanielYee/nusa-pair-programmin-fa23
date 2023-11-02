@@ -19,7 +19,7 @@ class Computstat:
         return self.conn.raw_sql(query)
 
 def main():
-    curr = Computstat('aidankaneshiro')
+    curr = Computstat('nathanielyee')
     print(curr)
     del curr
 
